@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework Week 4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="src/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+<body>
+    <div class="container">
+      <div class="weather-app">
+        <form>
+            <div class="row">
+                <div class="col-1">
+                  <button id="current-location-button" type="submit" class="btn btn-primary shadow">
+                    <i class="fas fa-location-arrow"></i>
+                  </button>
+                </div>
+                <div class="col-9">
+                    <div class="mb-3">
+                        <input id="search-input"
+                        type="search" 
+                        class="form-control shadow-sm"
+                        placeholder="Search your city"
+                        autocomplete="off">
+                    </div>
+                </div>
+                <div class="col-2"> 
+                  <button id="search-button"
+                  type="submit" 
+                  class="btn btn-primary shadow">
+                  Search
+                  </button>
+                  </div>
+            </div>
+        </form>
+        <div class="row">
+          <div class="col-6">
+            <div class="today">
+              <div class="today-date" id="now">
+                Saturday, 27 February
+              </div>
+              <h3 class="city">
+                Edinburgh
+              </h3>
+              <h3>
+                <small class="text-muted description" id="description">
+                Snow
+                </small>
+              </h3>
+              <div class="degrees" id="degrees-celsius">
+                9°C 
+              </div>
+              <a href="#" class="fahrenheit-option" id="fahrenheit">
+                Show in Fahrenheit
+              </a>
+            </div>
+          </div>
+          <div class="col-6">
+            <img src="img/rain.svg" alt="rain" width="200px">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Sunday
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  <i class="fas fa-cloud-sun-rain"></i>
+                </br> 
+                  10°C
+                </h6>
+              </div>
+          </div>
+          <div class="col-2">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Monday
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  <i class="fas fa-cloud-sun-rain"></i>
+                  </br>
+                  10°C
+                </h6>
+            </div>
+          </div>
+          <div class="col-2">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Tuesday
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  <i class="fas fa-cloud-sun-rain"></i>
+                  </br>
+                  10°C
+                </h6>
+              </div>
+          </div>
+          <div class="col-2">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Wednesday
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  <i class="fas fa-cloud-sun-rain"></i>
+                  </br>
+                  10°C
+                </h6>
+              </div>
+          </div>
+          <div class="col-2">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Thursday
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  <i class="fas fa-cloud-sun-rain"></i>
+                  </br>
+                  10°C
+                </h6>
+              </div>
+          </div>
+          <div class="col-2">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Friday
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  <i class="fas fa-cloud-sun-rain"></i>
+                  </br>
+                  10°C
+                </h6>
+            
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/7a3b62923b.js" crossorigin="anonymous"></script>
+    <script src="src/index.js"></script>
+</body>
+</html>

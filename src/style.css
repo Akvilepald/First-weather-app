@@ -1,0 +1,63 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+form {
+  align-items: center;
+  margin-top: 24px;
+}
+.weather-app {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 20px;
+  max-width: 600px;
+}
+.row {
+  margin-top: 20px;
+}
+.card-body {
+  text-align: center;
+  font-size: 12px;
+}
+.card-title {
+  font-size: 12px;
+  color: #395837;
+}
+.today {
+  text-align: center;
+}
+.city {
+  font-weight: 800;
+  font-size: 36px;
+  color: #517d4f;
+}
+.country {
+  color: #84b082;
+}
+.today-date {
+  color: #395837;
+}
+.degrees {
+  font-size: 48px;
+  font-weight: 900;
+  color: #517d4f;
+}
+.btn {
+  background-color: #84b082;
+  border-color: #84b082;
+}
+.btn:hover {
+  background-color: #517d4f;
+  border-color: #517d4f;
+}
+.btn:focus {
+  background-color: #517d4f;
+  border-color: #517d4f;
+}
+.fahrenheit-option {
+  font-size: 12px;
+  color: #395837;
+}
+.fahrenheit-option:hover {
+  color: #84b082;
+}
