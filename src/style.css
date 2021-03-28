@@ -61,3 +61,15 @@ form {
 .fahrenheit-option:hover {
   color: #84b082;
 }
+
+#code-source {
+  font-size: 12px;
+  font-family: monospace;
+  display: block;
+  padding: 20px;
+  color: #395837;
+}
+#code-source:hover {
+  color: #84b082;
+  transition: 200ms;
+}
